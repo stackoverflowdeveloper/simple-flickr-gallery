@@ -1,0 +1,27 @@
+
+$background: black;
+$bacgroundGallery: #E74C3C; 
+$color:white;
+$font:sans-serif;
+
+body {
+    background-color: $background;
+    color:$color;
+    font-family: $font;
+}
+.App-Title {
+	font-size:28px; 
+}
+
+.app {
+	text-align:center; 
+	padding:5%; 
+
+}
+.gallery {
+	background: $bacgroundGallery;
+}
+.picture {
+	display:inline-block;
+	margin:10px;
+}
