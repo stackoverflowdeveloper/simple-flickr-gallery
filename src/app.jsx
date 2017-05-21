@@ -2,9 +2,6 @@ import React, {Component} from 'react';
 import {FormGroup, FormControl, InputGroup, Glyphicon} from 'react-bootstrap';
 import Gal from './gal.jsx';
 
-
-
-
 class App extends Component {
 
 
@@ -17,9 +14,7 @@ class App extends Component {
 			
 		}
 	}
-	
-	
-	
+		
 	search(){
 		//console.log('this.state', this.state);
 
@@ -73,12 +68,8 @@ class App extends Component {
 
 	}
 
-
-
-
 	render(){
 	//	console.log(gallery.picture);
-
 
 		return (
 			<div className="app">
@@ -102,9 +93,7 @@ class App extends Component {
 						</InputGroup.Addon>
 					</InputGroup>
 				</FormGroup>
-					<Gal gallery={this.state.gallery}/>
-			
-			
+				<Gal gallery={this.state.gallery}/>			
 			</div>
 			)
 	}
